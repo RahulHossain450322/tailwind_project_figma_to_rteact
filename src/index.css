@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1 {
+    font-size: 2em;
+  }
+  h2 {
+    font-size: 1.5em;
+  }
+  h3 {
+    font-size: 1.17em;
+  }
+  h4 {
+    font-size: 1em;
+  }
+  h5 {
+    font-size: 0.83em;
+  }
+  h6 {
+    font-size: 0.67em;
+  }
+}
+@layer components {
+  .hero {
+    @apply p-3 h-56 flex items-center justify-center text-slate-100 bg-slate-700;
+  }
+  .navbar {
+    @apply bg-slate-800 text-slate-100 flex items-center justify-between p-3 sticky top-0 z-50;
+  }
+  .grid_style {
+    @apply grid lg:grid-cols-4 md:grid-cols-2 gap-3 py-10 bg-gray-800 lg:px-0 md:px-0 px-10;
+  }
+  .card_style {
+    @apply bg-cyan-900  flex p-3 lg:rounded-lg md:rounded-md rounded-sm transition-all ease-linear duration-100 hover:bg-gray-800;
+  }
+  .menu_style {
+    @apply list-none font-thin text-sm hover:underline hover:text-yellow-500 hover:transition-all ease-linear duration-100 hover:font-semibold;
+  }
+  .clinet_style {
+    @apply p-10 bg-cyan-900 text-slate-100;
+  }
+  .client_card_style {
+    @apply p-6 bg-cyan-700 rounded-md text-black text-center hover:bg-cyan-900;
+  }
+  .expert_grid {
+    @apply grid lg:grid-cols-4 gap-4 md:grid-cols-2;
+  }
+  .trust_style {
+    @apply text-center py-4 mx-auto lg:mx-0 hover:bg-cyan-700 hover:w-full hover:rounded-md hover:text-center transition-all duration-100 ease-linear;
+  }
+  .aricles_style {
+    @apply bg-gray-100 py-10 px-3;
+  }
+  .footer_grid {
+    @apply flex flex-col md:flex-col lg:flex-row lg:justify-between px-3 py-10 bg-cyan-700;
+  }
+}
+@layer utilities {
+  .f-12 {
+    font-size: 12px;
+  }
+  .f-13 {
+    font-size: 13px;
+  }
+  .f-14 {
+    font-size: 14px;
+  }
+}

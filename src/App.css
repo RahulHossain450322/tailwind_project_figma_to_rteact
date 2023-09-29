@@ -1,0 +1,16 @@
+.card_hover_effect:hover .icon {
+  color: greenyellow;
+}
+.card_hover_effect:hover .card_title {
+  color: yellow;
+}
+.card_hover_effect:hover .card_des {
+  color: rgb(224, 40, 209);
+}
+.trust_content {
+  width: 120px;
+  margin: 0 auto;
+}
+.trust_style:hover .trust_content {
+  margin: 0 auto;
+}
