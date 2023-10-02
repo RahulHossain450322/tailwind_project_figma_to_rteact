@@ -5,12 +5,14 @@ import Hero from "./Hero";
 import Expert from "./Expert";
 import Articles from "./Articles";
 import Question from "./Question";
-import Footer from "./Footer";
+import Footer from "../Footer/Footer";
+import Mobile_nav from "../Mobile_nav/Mobile_nav";
 function Home() {
   return (
-    <div className="">
+    <section className="">
       <div className="container mx-auto">
         <Navbar />
+        <Mobile_nav />
         <Hero />
         <div className="grid_style">
           <Card />
@@ -27,7 +29,7 @@ function Home() {
         <Question />
         <Footer />
       </div>
-    </div>
+    </section>
   );
 }
 

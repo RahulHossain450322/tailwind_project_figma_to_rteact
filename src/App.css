@@ -1,8 +1,8 @@
 .card_hover_effect:hover .icon {
-  color: greenyellow;
+  color: rgb(255, 47, 151);
 }
 .card_hover_effect:hover .card_title {
-  color: yellow;
+  color: rgb(255, 0, 179);
 }
 .card_hover_effect:hover .card_des {
   color: rgb(224, 40, 209);

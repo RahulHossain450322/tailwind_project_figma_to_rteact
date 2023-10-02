@@ -33,7 +33,7 @@ function Footer() {
         <h3 className="font-semibold">Newsletter</h3>
         <div className="mt-4">
           <input
-            className="outline-none px-4 py-1 rounded-l-3xl"
+            className="outline-none px-4 py-1 rounded-l-3xl w-6/12"
             type="text"
             placeholder="Enter your email"
           />
