@@ -1,6 +1,6 @@
 import {} from "react";
 import { Link } from "react-router-dom";
-
+import "../../App.css";
 function Navbar() {
   return (
     <nav className="navbar lg:flex md:hidden hidden">
@@ -16,9 +16,13 @@ function Navbar() {
         <Link to="/">
           <li className="menu_style">Home</li>
         </Link>
-        <li className="menu_style">Categories</li>
-        <li className="menu_style">Blog</li>
-        <li className="menu_style">Contact</li>
+        <li className="menu_style cursor-pointer">Categories</li>
+        <Link to="/blog">
+          <li className="menu_style">Blogs</li>
+        </Link>
+        <Link to="/contact">
+          <li className="menu_style">Contacts</li>
+        </Link>
         <Link to="/about">
           <li className="menu_style">About</li>
         </Link>

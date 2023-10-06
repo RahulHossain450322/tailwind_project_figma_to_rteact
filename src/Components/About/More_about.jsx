@@ -2,7 +2,7 @@ import {} from "react";
 
 function More_about() {
   return (
-    <div className="px-3 py-10 bg-gray-100">
+    <div className="px-3 py-10 bg-gradient-to-r from-gray-200  to-transparent">
       <div className="text-center">
         <h2 className="lg:text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-indigo-800  to-pink-500">
           Web Design & Development Services

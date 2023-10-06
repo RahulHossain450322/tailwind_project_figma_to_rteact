@@ -33,10 +33,14 @@
     @apply grid lg:grid-cols-4 md:grid-cols-2 gap-3 py-10  lg:px-0 md:px-0 px-10;
   }
   .card_style {
-    @apply bg-yellow-400  flex p-3 lg:rounded-lg md:rounded-md rounded-sm transition-all ease-linear duration-100 hover:bg-white;
+    @apply border-l-red-400 border-2
+    border-t-cyan-800 
+    border-r-blue-400 
+    border-b-yellow-400 
+    flex p-3 lg:rounded-lg md:rounded-md rounded-md transition-all ease-linear duration-100;
   }
   .menu_style {
-    @apply list-none font-thin text-sm hover:underline hover:text-yellow-500 hover:transition-all ease-linear duration-100 hover:font-semibold;
+    @apply list-none font-extrabold text-sm hover:underline hover:text-yellow-500 hover:transition-all ease-linear duration-100;
   }
   .clinet_style {
     @apply p-10 bg-gray-200 text-slate-700;
@@ -48,7 +52,7 @@
     @apply grid lg:grid-cols-4 gap-4 md:grid-cols-2;
   }
   .trust_style {
-    @apply text-center py-4 mx-auto lg:mx-0 hover:bg-cyan-700 hover:w-full hover:rounded-md hover:text-center transition-all duration-100 ease-linear;
+    @apply text-center py-4 mx-auto lg:mx-0 hover:bg-cyan-700 hover:text-slate-100 hover:w-full hover:rounded-md hover:text-center transition-all duration-100 ease-linear;
   }
   .aricles_style {
     @apply bg-gray-100 py-10 px-3;
@@ -73,7 +77,20 @@
     @apply grid lg:grid-cols-3 gap-4;
   }
   .process_card {
-    @apply transition-all duration-100 ease-linear border-2 border-green-400 h-24 flex items-center justify-center rounded-md  hover:shadow-lg hover:shadow-blue-500;
+    @apply transition-all duration-100 ease-linear border-2 border-blue-400 h-24 flex items-center justify-center rounded-md  hover:shadow-lg hover:shadow-blue-500;
+  }
+  /*contact */
+  .contact_us {
+    @apply px-3 py-10 bg-blue-300;
+  }
+  .contact_details {
+    @apply px-3 py-6 lg:flex lg:items-center lg:justify-between space-y-3;
+  }
+  .form {
+    @apply lg:w-8/12 mx-auto;
+  }
+  .form_input {
+    @apply border-2 border-cyan-700 px-2 py-1 rounded-sm outline-none block my-4 w-full;
   }
 }
 @layer utilities {
@@ -88,5 +105,8 @@
   }
   .f-14 {
     font-size: 14px;
+  }
+  .continue_btn {
+    width: 168px;
   }
 }
